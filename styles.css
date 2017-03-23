@@ -81,6 +81,11 @@ body {
   z-index: 6;
 }
 
+.insitu-layer-7 {
+  position: relative;
+  z-index: 7;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -174,6 +179,31 @@ body {
   color: #EEEEEE;
   top: -192px;
   right: 120px;
+}
+
+#insitu-header .insitu-layer-7.insitu-bg-default {
+  top: -100px;
+  left: 80px;
+}
+
+#insitu-header .insitu-layer-7.insitu-bg-default img {
+  display: inline-block;
+  height: 60px;
+  margin-right: 20px;
+}
+
+#insitu-header .insitu-layer-7.insitu-bg-default h1 {
+  display: inline-block;
+  position: relative;
+  color: #783F34;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+#insitu-header .insitu-layer-7.insitu-bg-default h3 {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
 }
 
 #insitu-header a:hover {
