@@ -1,17 +1,10 @@
-/*
-  COLORS
-  ======
-  #723C31 insitu primary ?
-  #FFD28D insitu light ?
-  #EFE7E3 colored bg
-*/
-
 /* =============================================================================
  * --          INSITU COLORS                                                  --
  * =============================================================================
  *                                       http://www.0to255.com/original_color -2
- * #783F34  :: main color (Old Copper)                         hover: #60332a
- * #ffcf87  :: main color (light yellow)                       hover: #ffc165
+ * #783F34  :: primary color (Old Copper)                         hover: #60332a
+ * #ffcf87  :: secondary color (light yellow)                     hover: #ffc165
+ * #EFE7E3  :: light (bg gray yellow)
  *
  * Colors from original logos:
  * ===========================
@@ -27,5 +20,21 @@
  */
 
 body {
+  background: #FFFFFF;
+}
+
+.insitu-bg-primary {
+  background: #783F34;
+}
+
+.insitu-bg-secondary {
+  background: #ffcf87;
+}
+
+.insitu-bg-light {
+  background: #EFE7E3;
+}
+
+.insitu-bg-default {
   background: #FFFFFF;
 }
