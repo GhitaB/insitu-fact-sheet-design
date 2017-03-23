@@ -266,6 +266,30 @@ body {
 }
 
 .container-fluid.insitu-content-container {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker {
+  color: #FFFFFF;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker h3 {
+  position: relative;
+  top: -10px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker:after {
+  content:'';
+  position: absolute;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -30px;
+  width: 0;
+  height: 0;
+  border-top: solid 20px #783F34;
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
 }
