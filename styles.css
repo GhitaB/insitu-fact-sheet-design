@@ -175,3 +175,24 @@ body {
 #insitu-header a:hover {
   text-decoration: none;
 }
+
+#insitu-footer .insitu-layer-1.insitu-bg-test {
+  height: 160px;
+  background: #EEEEEE !important;  /* [TODO] Remove */
+}
+
+#insitu-footer .insitu-layer-2.insitu-bg-primary {
+  bottom: -120px;
+  height: 80px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* [TODO] Add other? */
+.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
