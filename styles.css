@@ -190,16 +190,17 @@ body {
   top: 40px;
   width: 80%;
   height: 40px;
+  border-top: 20px solid #FFFFFF;
 }
 
 #insitu-footer .insitu-layer-3.insitu-bg-secondary:after {
   content: '';
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 0;
   left: 100%;
   border-top: 40px solid transparent;
-  border-left: 40px solid yellow;
+  border-left: 40px solid #FFFFFF;
   width: 0;
 }
 
@@ -216,7 +217,7 @@ body {
   right: 0;
   left: 100%;
   border-top: 120px solid transparent;
-  border-left: 120px solid yellow;
+  border-left: 120px solid #FFFFFF;
   width: 0;
 }
 
@@ -230,3 +231,5 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+/*ffcf87*/
