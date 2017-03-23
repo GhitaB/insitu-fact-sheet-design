@@ -186,6 +186,18 @@ body {
   height: 80px;
 }
 
+#insitu-footer .insitu-layer-3.insitu-bg-secondary {
+  top: 40px;
+  width: 80%;
+  height: 40px;
+}
+
+#insitu-footer .insitu-layer-4.insitu-bg-secondary {
+  top: -120px;
+  width: 10px;
+  height: 120px;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
