@@ -242,6 +242,18 @@ body {
   width: 0;
 }
 
+#insitu-footer .insitu-layer-5.insitu-bg-primary {
+  top: 130px;
+  width: 250px;
+  float: right;
+  right: 0px;
+}
+
+#insitu-footer .insitu-layer-5.insitu-bg-primary a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -253,4 +265,7 @@ body {
   padding-right: 0px;
 }
 
-/*ffcf87*/
+.container-fluid.insitu-content-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
