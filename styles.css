@@ -192,10 +192,32 @@ body {
   height: 40px;
 }
 
+#insitu-footer .insitu-layer-3.insitu-bg-secondary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100%;
+  border-top: 40px solid transparent;
+  border-left: 40px solid yellow;
+  width: 0;
+}
+
 #insitu-footer .insitu-layer-4.insitu-bg-secondary {
   top: -120px;
-  width: 10px;
+  width: 0px;
   height: 120px;
+}
+
+#insitu-footer .insitu-layer-4.insitu-bg-secondary:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100%;
+  border-top: 120px solid transparent;
+  border-left: 120px solid yellow;
+  width: 0;
 }
 
 .row {
