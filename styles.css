@@ -16,6 +16,10 @@
  * Emergency:  #F89C2C hover: #e98408
  * Climate:    #8E1636 hover: #620f25
  *
+ * Proportions
+ * ===========
+ * X = 40px
+ * 40, 80, 120, 160, 200, 240
  * =============================================================================
  */
 
@@ -37,6 +41,10 @@ body {
 
 .insitu-bg-default {
   background: #FFFFFF;
+}
+
+.insitu-bg-test {
+  background: red;
 }
 
 .insitu-layer-1 {
@@ -74,16 +82,23 @@ body {
 }
 
 #insitu-header-new .insitu-layer-1.insitu-bg-default {
-  height: 250px;
-  background: red !important;
+  height: 240px;  /* 6X */
+  background: green !important;
 }
 
 #insitu-header-new .insitu-layer-2.insitu-bg-primary {
-  height: 100px;
+  height: 80px; /* 2X */
+  top: 80px; /* 2X */
 }
 
 #insitu-header-new .insitu-layer-3.insitu-bg-default {
-  height: 100px;
+  height: 120px; /* 3X */
   width: 80%;
-  top: -50px;
+  top: -80px; /* 2X */
+}
+
+#insitu-header-new .insitu-layer-4.insitu-bg-default {
+  height: 120px; /* 3X */
+  width: 20%;
+  top: 120px;
 }
