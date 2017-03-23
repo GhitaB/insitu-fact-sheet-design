@@ -176,9 +176,8 @@ body {
   text-decoration: none;
 }
 
-#insitu-footer .insitu-layer-1.insitu-bg-test {
+#insitu-footer .insitu-layer-1.insitu-bg-default {
   height: 160px;
-  background: #EEEEEE !important;  /* [TODO] Remove */
 }
 
 #insitu-footer .insitu-layer-2.insitu-bg-primary {
@@ -190,7 +189,7 @@ body {
   top: 40px;
   width: 80%;
   height: 40px;
-  border-top: 20px solid #FFFFFF;
+  border-top: 10px solid #FFFFFF;
 }
 
 #insitu-footer .insitu-layer-3.insitu-bg-secondary:after {
@@ -199,15 +198,15 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 20px solid transparent;
-  border-left: 20px solid #ffcf87;
+  border-top: 30px solid transparent;
+  border-left: 30px solid #ffcf87;
   width: 0;
 }
 
 #insitu-footer .insitu-layer-3.insitu-bg-secondary:before {
   content: '';
   position: absolute;
-  top: -20px;
+  top: -10px;
   right: 0;
   left: 100%;
   border-top: 40px solid transparent;
@@ -235,7 +234,7 @@ body {
 #insitu-footer .insitu-layer-4.insitu-bg-secondary:after {
   content: '';
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0;
   left: 100%;
   border-top: 120px solid transparent;
