@@ -81,9 +81,13 @@ body {
   padding-top: 66.64%;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 #insitu-header-new .insitu-layer-1.insitu-bg-default {
   height: 240px;  /* 6X */
-  background: #EEEEEE !important; /* [TODO] Remove */
 }
 
 #insitu-header-new .insitu-layer-2.insitu-bg-primary {
@@ -95,6 +99,8 @@ body {
   height: 120px; /* 3X */
   width: 70%;
   top: -80px; /* 2X */
+  left: 120px;
+  border-bottom: 20px solid #ffcf87;
 }
 
 #insitu-header-new .insitu-layer-3.insitu-bg-default:after {
@@ -103,8 +109,21 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 120px solid #FFFFFF;             /* 3X */
+  border-top: 120px solid #FFFFFF;          /* 3X */
   border-right: 120px solid transparent;    /* 3X */
+  width: 0;
+  margin-left: 0px;
+  margin-top: -20px;
+}
+
+#insitu-header-new .insitu-layer-3.insitu-bg-default:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100%;
+  border-top: 120px solid #ffcf87;             /* 3X */
+  border-right: 120px solid transparent;   /* 3X */
   width: 0;
 }
 
@@ -114,13 +133,28 @@ body {
   top: 120px; /* 3X */
 }
 
+#insitu-header-new .insitu-layer-4.insitu-bg-default:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100%;
+  border-top: 140px solid #ffcf87;           /* 3X */
+  border-right: 140px solid transparent;    /* 3X */
+  width: 0;
+  margin-left: -120px;
+  margin-top: -20px;
+}
+
 #insitu-header-new .insitu-layer-4.insitu-bg-default:after {
   content: '';
   position: absolute;
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 120px solid #FFFFFF;             /* 3X */
-  border-right: 120px solid transparent;    /* 3X */
+  border-top: 180px solid #FFFFFF;          /* 3X */
+  border-right: 180px solid transparent;    /* 3X */
   width: 0;
+  margin-left: -160px;
+  margin-top: -40px;
 }
