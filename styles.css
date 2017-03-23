@@ -72,24 +72,29 @@ body {
   z-index: 5;
 }
 
+.insitu-layer-6 {
+  position: relative;
+  z-index: 6;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
 #insitu-header .insitu-layer-1.insitu-bg-default {
-  height: 240px;  /* 6X */
+  height: 240px;
 }
 
 #insitu-header .insitu-layer-2.insitu-bg-primary {
-  height: 80px; /* 2X */
-  top: 80px; /* 2X */
+  height: 80px;
+  top: 80px;
 }
 
 #insitu-header .insitu-layer-3.insitu-bg-default {
-  height: 120px; /* 3X */
+  height: 120px;
   width: 70%;
-  top: -80px; /* 2X */
+  top: -80px;
   left: 120px;
   border-bottom: 20px solid #ffcf87;
 }
@@ -100,8 +105,8 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 120px solid #FFFFFF;          /* 3X */
-  border-right: 120px solid transparent;    /* 3X */
+  border-top: 120px solid #FFFFFF;
+  border-right: 120px solid transparent;
   width: 0;
   margin-left: 0px;
   margin-top: -20px;
@@ -113,15 +118,15 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 120px solid #ffcf87;             /* 3X */
-  border-right: 120px solid transparent;   /* 3X */
+  border-top: 120px solid #ffcf87;
+  border-right: 120px solid transparent;
   width: 0;
 }
 
 #insitu-header .insitu-layer-4.insitu-bg-default {
-  height: 120px; /* 3X */
+  height: 120px;
   width: 0%;
-  top: 120px; /* 3X */
+  top: 120px;
 }
 
 #insitu-header .insitu-layer-4.insitu-bg-default:before {
@@ -130,8 +135,8 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 140px solid #ffcf87;           /* 3X */
-  border-right: 140px solid transparent;    /* 3X */
+  border-top: 140px solid #ffcf87;
+  border-right: 140px solid transparent;
   width: 0;
   margin-left: -120px;
   margin-top: -20px;
@@ -143,9 +148,30 @@ body {
   top: 0;
   right: 0;
   left: 100%;
-  border-top: 180px solid #FFFFFF;          /* 3X */
-  border-right: 180px solid transparent;    /* 3X */
+  border-top: 180px solid #FFFFFF;
+  border-right: 180px solid transparent;
   width: 0;
   margin-left: -160px;
   margin-top: -40px;
+}
+
+#insitu-header .insitu-layer-5.insitu-bg-default {
+  top: -220px;
+  left: 120px;
+  width: 50%;
+}
+
+#insitu-header .insitu-layer-5.insitu-bg-default img {
+  height: 60px;
+  margin-right: 20px;
+}
+
+#insitu-header .insitu-layer-6.insitu-bg-default {
+  color: #EEEEEE;
+  top: -192px;
+  right: 120px;
+}
+
+#insitu-header a:hover {
+  text-decoration: none;
 }
