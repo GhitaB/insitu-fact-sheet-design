@@ -97,8 +97,19 @@ body {
   top: -80px; /* 2X */
 }
 
+#insitu-header-new .insitu-layer-3.insitu-bg-default:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 100%;
+  border-top: 120px solid blue;
+  border-right: 120px solid transparent;
+  width: 0;
+}
+
 #insitu-header-new .insitu-layer-4.insitu-bg-default {
   height: 120px; /* 3X */
   width: 20%;
-  top: 120px;
+  top: 120px; /* 3X */
 }
