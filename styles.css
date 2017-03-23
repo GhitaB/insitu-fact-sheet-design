@@ -72,30 +72,21 @@ body {
   z-index: 5;
 }
 
-#insitu-header {
-  background-image: url("./images/header.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 66.64%;
-}
-
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
 }
 
-#insitu-header-new .insitu-layer-1.insitu-bg-default {
+#insitu-header .insitu-layer-1.insitu-bg-default {
   height: 240px;  /* 6X */
 }
 
-#insitu-header-new .insitu-layer-2.insitu-bg-primary {
+#insitu-header .insitu-layer-2.insitu-bg-primary {
   height: 80px; /* 2X */
   top: 80px; /* 2X */
 }
 
-#insitu-header-new .insitu-layer-3.insitu-bg-default {
+#insitu-header .insitu-layer-3.insitu-bg-default {
   height: 120px; /* 3X */
   width: 70%;
   top: -80px; /* 2X */
@@ -103,7 +94,7 @@ body {
   border-bottom: 20px solid #ffcf87;
 }
 
-#insitu-header-new .insitu-layer-3.insitu-bg-default:after {
+#insitu-header .insitu-layer-3.insitu-bg-default:after {
   content: '';
   position: absolute;
   top: 0;
@@ -116,7 +107,7 @@ body {
   margin-top: -20px;
 }
 
-#insitu-header-new .insitu-layer-3.insitu-bg-default:before {
+#insitu-header .insitu-layer-3.insitu-bg-default:before {
   content: '';
   position: absolute;
   top: 0;
@@ -127,13 +118,13 @@ body {
   width: 0;
 }
 
-#insitu-header-new .insitu-layer-4.insitu-bg-default {
+#insitu-header .insitu-layer-4.insitu-bg-default {
   height: 120px; /* 3X */
   width: 0%;
   top: 120px; /* 3X */
 }
 
-#insitu-header-new .insitu-layer-4.insitu-bg-default:before {
+#insitu-header .insitu-layer-4.insitu-bg-default:before {
   content: '';
   position: absolute;
   top: 0;
@@ -146,7 +137,7 @@ body {
   margin-top: -20px;
 }
 
-#insitu-header-new .insitu-layer-4.insitu-bg-default:after {
+#insitu-header .insitu-layer-4.insitu-bg-default:after {
   content: '';
   position: absolute;
   top: 0;
