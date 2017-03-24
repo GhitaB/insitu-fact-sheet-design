@@ -174,7 +174,7 @@ body {
 }
 
 #insitu-header .insitu-layer-6.insitu-bg-default {
-  color: #EEEEEE;
+  color: #FFFFFF;
   top: -202px;
   right: 120px;
 }
@@ -329,4 +329,33 @@ body {
 #insitu-main-content {
   position: relative;
   top: -140px;
+}
+
+
+/* ========= EXTRA SMALL ================================*/
+@media (max-width:768px) {
+  #insitu-header .insitu-layer-6.insitu-bg-default h3 {
+    font-size: 12px !important;
+    position: relative;
+    top: 6px;
+  }
+}
+
+/* ========= SMALL ======================================*/
+@media (min-width:768px) and (max-width:992px) {
+  #insitu-header .insitu-layer-6.insitu-bg-default h3 {
+    font-size: 16px !important;
+    position: relative;
+    top: 5px;
+  }
+}
+
+/* ========= MEDIUM =====================================*/
+@media (min-width:992px) and (max-width:1200px) {
+
+}
+
+/* ========= LARGE ======================================*/
+@media (min-width:1200px) {
+
 }
