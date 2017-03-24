@@ -128,7 +128,7 @@ body {
   right: 0;
   left: 30px;
   content: '';
-  bottom: -5px;
+  bottom: -4px;
   top: 0;
 }
 
@@ -169,13 +169,13 @@ body {
 }
 
 #insitu-header .insitu-layer-5.insitu-bg-default img {
-  height: 60px;
+  height: 70px;
   margin-right: 20px;
 }
 
 #insitu-header .insitu-layer-6.insitu-bg-default {
   color: #EEEEEE;
-  top: -192px;
+  top: -202px;
   right: 120px;
 }
 
@@ -190,7 +190,7 @@ body {
 
 #insitu-header .insitu-layer-7.insitu-bg-default img {
   display: inline-block;
-  height: 60px;
+  height: 70px;
   margin-right: 20px;
 }
 
