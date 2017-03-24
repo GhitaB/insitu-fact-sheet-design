@@ -183,7 +183,11 @@ body {
 
 #insitu-header .insitu-layer-7.insitu-bg-default {
   top: -100px;
-  left: 80px;
+  margin-left: 80px;
+}
+
+#insitu-header .insitu-layer-7.insitu-bg-default table {
+  width: 100%;
 }
 
 #insitu-header .insitu-layer-7.insitu-bg-default img {
@@ -328,4 +332,64 @@ body {
   border-top: solid 20px #783F34;
   border-left: solid 30px transparent;
   border-right: solid 30px transparent;
+}
+
+.footer {
+  position: relative;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.top,
+.bottom {
+  position: relative;
+  height: 50px;
+}
+
+.bottom {
+  margin-top: 10px;
+}
+
+.top::before {
+  transform-origin: left top;
+  transform: skew(45deg);
+  position: absolute;
+  background: green;
+  height: 100px;
+  width: 145px;
+  content: '';
+  top: 100%;
+  right: 0;
+}
+
+.bottom:before {
+  transform-origin: right bottom;
+  transform: skew(45deg);
+  position: absolute;
+  background: blue;
+  height: 150px;
+  bottom: 100%;
+  width: 95px;
+  content: '';
+  left: 0;
+}
+
+.top::after,
+.bottom::after {
+  transform-origin: left bottom;
+  transform: skew(45deg);
+  position: absolute;
+  background: green;
+  right: -100px;
+  left: 100px;
+  content: '';
+  bottom: 0;
+  top: 0;
+}
+
+.bottom:after {
+  transform-origin: right bottom;
+  background: blue;
+  right: 100px;
+  left: -100px;
 }
