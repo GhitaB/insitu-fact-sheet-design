@@ -185,7 +185,7 @@ body {
 }
 
 .insitu-layer-7.insitu-bg-default table {
-  width: 100%;
+  width: 90%;
 }
 
 .insitu-layer-7.insitu-bg-default img {
@@ -324,4 +324,9 @@ body {
 #insitu-footer .insitu-layer-2.insitu-bg-transparent a {
   color: #FFFFFF;
   text-decoration: none;
+}
+
+#insitu-main-content {
+  position: relative;
+  top: -140px;
 }
