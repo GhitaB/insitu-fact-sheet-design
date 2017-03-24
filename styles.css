@@ -291,6 +291,25 @@ body {
   text-decoration: none;
 }
 
+.insitu-footer-container .insitu-footer-content {
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 40px;
+  position: relative;
+  bottom: -100px;
+}
+
+.insitu-footer-container .insitu-footer-content .insitu-images {
+  margin-bottom: 10px;
+}
+
+.insitu-footer-container .insitu-footer-content .insitu-images img {
+  margin-right: 40px;
+}
+
+.insitu-footer-container .insitu-text .small {
+  color: #666666;
+}
 
 /* === MAIN CONTENT ===========================================================*/
 #insitu-main-content {
