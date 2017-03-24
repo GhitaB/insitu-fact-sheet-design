@@ -296,6 +296,10 @@ body {
   top: -140px;
 }
 
+img.img-responsive {
+  margin-bottom: 10px;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
