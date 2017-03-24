@@ -363,6 +363,19 @@ img.img-responsive {
   color: #333333;
 }
 
+.insitu-subsection-title {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.insitu-box-2 {
+  background: #EFE7E3;
+  padding: 10px;
+}
+
+.insitu-box-2 table td {
+  padding: 5px;
+}
 
 /* === RESPONSIVITY ===========================================================*/
 
