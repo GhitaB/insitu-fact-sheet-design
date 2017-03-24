@@ -139,29 +139,27 @@ body {
 }
 
 #insitu-header .insitu-layer-4.insitu-bg-default:before {
-  content: '';
+  transform-origin: left bottom;
+  transform: skew(135deg);
   position: absolute;
-  top: 10px;
-  right: 0;
-  left: 100%;
-  border-top: 130px solid #ffcf87;
-  border-right: 130px solid transparent;
-  width: 0;
-  margin-left: -120px;
-  margin-top: -20px;
+  background: #ffcf87;
+  right: 133px;
+  left: -500px;
+  content: '';
+  bottom: -20px;
+  top: -5px;
 }
 
 #insitu-header .insitu-layer-4.insitu-bg-default:after {
-  content: '';
+  transform-origin: left bottom;
+  transform: skew(135deg);
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 100%;
-  border-top: 190px solid #FFFFFF;
-  border-right: 190px solid transparent;
-  width: 0;
-  margin-left: -160px;
-  margin-top: -40px;
+  background: #FFFFFF;
+  right: 140px;
+  left: -500px;
+  content: '';
+  bottom: -20px;
+  top: -45px;
 }
 
 #insitu-header .insitu-layer-5.insitu-bg-default {
