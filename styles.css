@@ -26,6 +26,8 @@
 /* === GENERAL STYLES =========================================================*/
 body {
   background: #FFFFFF;
+  font-size: 18px;
+  color: #333333;
 }
 
 .insitu-bg-primary {
@@ -364,13 +366,14 @@ img.img-responsive {
 }
 
 .insitu-subsection-title {
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: bold;
 }
 
 .insitu-box-2 {
   background: #EFE7E3;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 .insitu-box-2 table td {
