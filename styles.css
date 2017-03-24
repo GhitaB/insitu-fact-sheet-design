@@ -214,84 +214,6 @@ body {
   text-decoration: none;
 }
 
-#insitu-footer .insitu-layer-1.insitu-bg-default {
-  height: 160px;
-}
-
-#insitu-footer .insitu-layer-2.insitu-bg-primary {
-  bottom: -120px;
-  height: 80px;
-}
-
-#insitu-footer .insitu-layer-3.insitu-bg-secondary {
-  top: 40px;
-  width: 80%;
-  height: 40px;
-  border-top: 10px solid #FFFFFF;
-}
-
-#insitu-footer .insitu-layer-3.insitu-bg-secondary:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 100%;
-  border-top: 30px solid transparent;
-  border-left: 30px solid #ffcf87;
-  width: 0;
-}
-
-#insitu-footer .insitu-layer-3.insitu-bg-secondary:before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  right: 0;
-  left: 100%;
-  border-top: 40px solid transparent;
-  border-left: 40px solid #FFFFFF;
-  width: 0;
-}
-
-#insitu-footer .insitu-layer-4.insitu-bg-secondary {
-  top: -120px;
-  width: 0px;
-  height: 120px;
-}
-
-#insitu-footer .insitu-layer-4.insitu-bg-secondary:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 100%;
-  border-top: 120px solid transparent;
-  border-left: 120px solid #FFFFFF;
-  width: 0;
-}
-
-#insitu-footer .insitu-layer-4.insitu-bg-secondary:after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  right: 0;
-  left: 100%;
-  border-top: 120px solid transparent;
-  border-left: 120px solid #ffcf87;
-  width: 0;
-}
-
-#insitu-footer .insitu-layer-5.insitu-bg-transparent {
-  top: 130px;
-  width: 250px;
-  float: right;
-  right: 0px;
-}
-
-#insitu-footer .insitu-layer-5.insitu-bg-transparent a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
 .row {
   margin-left: 0px;
   margin-right: 0px;
@@ -334,62 +256,73 @@ body {
   border-right: solid 30px transparent;
 }
 
-.footer {
+#insitu-footer {
   position: relative;
   padding-top: 100px;
   overflow: hidden;
 }
 
-.top,
-.bottom {
+#insitu-footer .top,
+#insitu-footer .bottom {
   position: relative;
-  height: 50px;
+  height: 40px;
 }
 
-.bottom {
-  margin-top: 10px;
+#insitu-footer .bottom {
+  margin-top: 5px;
 }
 
-.top::before {
+#insitu-footer .top::before {
   transform-origin: left top;
   transform: skew(45deg);
   position: absolute;
-  background: green;
-  height: 100px;
-  width: 145px;
+  background: #783F34;
+  height: 50px;
+  width: 280px;
   content: '';
   top: 100%;
   right: 0;
 }
 
-.bottom:before {
+#insitu-footer .bottom:before {
   transform-origin: right bottom;
   transform: skew(45deg);
   position: absolute;
-  background: blue;
-  height: 150px;
+  background: #ffcf87;
+  height: 160px;
   bottom: 100%;
-  width: 95px;
+  width: 120px;
   content: '';
   left: 0;
 }
 
-.top::after,
-.bottom::after {
+#insitu-footer .top::after,
+#insitu-footer .bottom::after {
   transform-origin: left bottom;
   transform: skew(45deg);
   position: absolute;
-  background: green;
+  background: #783F34;
   right: -100px;
-  left: 100px;
+  left: 122px;
   content: '';
   bottom: 0;
   top: 0;
 }
 
-.bottom:after {
+#insitu-footer .bottom:after {
   transform-origin: right bottom;
-  background: blue;
-  right: 100px;
+  background: #ffcf87;
+  right: 242px;
   left: -100px;
+}
+
+#insitu-footer .insitu-layer-2.insitu-bg-transparent {
+  top: 10px;
+  right: 60px;
+  float: right;
+}
+
+#insitu-footer .insitu-layer-2.insitu-bg-transparent a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
