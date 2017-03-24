@@ -358,7 +358,15 @@ img.img-responsive {
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 12px !important;
     position: relative;
-    top: 6px;
+    top: 25px;
+    right: -80px;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default img {
+    height: 50px;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
   }
 }
 
