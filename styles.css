@@ -23,6 +23,7 @@
  * =============================================================================
  */
 
+/* === GENERAL STYLES =========================================================*/
 body {
   background: #FFFFFF;
 }
@@ -91,6 +92,8 @@ body {
   padding-right: 0px;
 }
 
+
+/* === HEADER =================================================================*/
 #insitu-header .insitu-layer-1.insitu-bg-default {
   height: 240px;
 }
@@ -213,48 +216,8 @@ body {
   text-decoration: none;
 }
 
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
-/* [TODO] Add other? */
-.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.container-fluid.insitu-content-container {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.container-fluid.insitu-bg-primary.insitu-section-marker {
-  color: #FFFFFF;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-.container-fluid.insitu-bg-primary.insitu-section-marker h3 {
-  position: relative;
-  top: -10px;
-}
-
-.container-fluid.insitu-bg-primary.insitu-section-marker:after {
-  content:'';
-  position: absolute;
-  left: 50%;
-  margin-top: -10px;
-  margin-left: -30px;
-  width: 0;
-  height: 0;
-  border-top: solid 20px #783F34;
-  border-left: solid 30px transparent;
-  border-right: solid 30px transparent;
-}
-
+/* === FOOTER =================================================================*/
 #insitu-footer {
   position: relative;
   padding-top: 100px;
@@ -326,13 +289,59 @@ body {
   text-decoration: none;
 }
 
+
+/* === MAIN CONTENT ===========================================================*/
 #insitu-main-content {
   position: relative;
   top: -140px;
 }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
-/* ========= EXTRA SMALL ================================*/
+/* [TODO] Add other? */
+.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid.insitu-content-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker {
+  color: #FFFFFF;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker h3 {
+  position: relative;
+  top: -10px;
+}
+
+.container-fluid.insitu-bg-primary.insitu-section-marker:after {
+  content:'';
+  position: absolute;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -30px;
+  width: 0;
+  height: 0;
+  border-top: solid 20px #783F34;
+  border-left: solid 30px transparent;
+  border-right: solid 30px transparent;
+}
+
+
+/* === RESPONSIVITY ===========================================================*/
+
+/* --- EXTRA SMALL ------------------------------------------------------------*/
 @media (max-width:768px) {
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 12px !important;
@@ -341,7 +350,7 @@ body {
   }
 }
 
-/* ========= SMALL ======================================*/
+/* --- SMALL ------------------------------------------------------------------*/
 @media (min-width:768px) and (max-width:992px) {
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 16px !important;
@@ -350,12 +359,12 @@ body {
   }
 }
 
-/* ========= MEDIUM =====================================*/
+/* --- MEDIUM ------------------------------------------------------------------*/
 @media (min-width:992px) and (max-width:1200px) {
 
 }
 
-/* ========= LARGE ======================================*/
+/* --- LARGE --------------------------------------------------------------------*/
 @media (min-width:1200px) {
 
 }
