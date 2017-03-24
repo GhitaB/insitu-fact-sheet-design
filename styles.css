@@ -329,6 +329,11 @@ ol li, ul li {
 #insitu-main-content {
   position: relative;
   top: -140px;
+  bottom: -250px;
+}
+
+.container-fluid.insitu-bg-default.fix-space {
+  margin-bottom: -200px;
 }
 
 img.img-responsive {
