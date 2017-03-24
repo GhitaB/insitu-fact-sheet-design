@@ -179,22 +179,22 @@ body {
   right: 120px;
 }
 
-#insitu-header .insitu-layer-7.insitu-bg-default {
-  top: -100px;
+.insitu-layer-7.insitu-bg-default {
+  top: -166px;
   margin-left: 80px;
 }
 
-#insitu-header .insitu-layer-7.insitu-bg-default table {
+.insitu-layer-7.insitu-bg-default table {
   width: 100%;
 }
 
-#insitu-header .insitu-layer-7.insitu-bg-default img {
+.insitu-layer-7.insitu-bg-default img {
   display: inline-block;
   height: 70px;
   margin-right: 20px;
 }
 
-#insitu-header .insitu-layer-7.insitu-bg-default h1 {
+.insitu-layer-7.insitu-bg-default h1 {
   display: inline-block;
   position: relative;
   color: #783F34;
@@ -202,9 +202,10 @@ body {
   font-weight: bold;
 }
 
-#insitu-header .insitu-layer-7.insitu-bg-default h3 {
+.insitu-layer-7.insitu-bg-default h3 {
   display: inline-block;
   position: relative;
+  color: #783F34;
   margin-top: 0px;
 }
 
