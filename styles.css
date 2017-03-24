@@ -414,6 +414,11 @@ img.img-responsive {
   padding: 5px;
 }
 
+.insitu-box-2 table td img {
+  max-width: 100%;
+}
+
+
 /* === RESPONSIVITY ===========================================================*/
 
 /* --- EXTRA SMALL ------------------------------------------------------------*/
@@ -464,6 +469,7 @@ img.img-responsive {
   }
 
   .insitu-footer-container .insitu-footer-content .insitu-images img {
+    max-width: 200px;
     margin-right: 2%;
   }
 }
@@ -477,11 +483,19 @@ img.img-responsive {
   #insitu-header .insitu-layer-6.insitu-bg-default {
     right: 105px;
   }
+
+  .insitu-footer-container .insitu-footer-content .insitu-images img {
+    max-width: 200px;
+  }
 }
 
 /* --- LARGE --------------------------------------------------------------------*/
 @media (min-width:1200px) {
   #insitu-main-content {
     top: -120px;
+  }
+
+  .insitu-footer-container .insitu-footer-content .insitu-images img {
+    max-width: 200px;
   }
 }
