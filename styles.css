@@ -301,8 +301,14 @@ body {
   margin-right: 0px;
 }
 
-/* [TODO] Add other? */
-.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+.insitu-header-container .col-lg-12,
+.insitu-header-container .col-md-12,
+.insitu-header-container .col-sm-12,
+.insitu-header-container .col-xs-12,
+.insitu-footer-container .col-lg-12,
+.insitu-footer-container .col-md-12,
+.insitu-footer-container .col-sm-12,
+.insitu-footer-container .col-xs-12 {
   padding-left: 0px;
   padding-right: 0px;
 }
