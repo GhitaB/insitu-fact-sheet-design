@@ -179,7 +179,7 @@ body {
 #insitu-header .insitu-layer-6.insitu-bg-default {
   color: #FFFFFF;
   top: -202px;
-  right: 120px;
+  right: 135px;
 }
 
 .insitu-layer-7.insitu-bg-default {
@@ -350,11 +350,28 @@ img.img-responsive {
   border-right: solid 30px transparent;
 }
 
+.insitu-box-1 {
+  border: 2px solid #ffcf87;
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
+  box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
+  color: #666666;
+}
+
+.insitu-box-1 strong {
+  color: #333333;
+}
+
 
 /* === RESPONSIVITY ===========================================================*/
 
 /* --- EXTRA SMALL ------------------------------------------------------------*/
 @media (max-width:768px) {
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 140px;
+  }
+
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 12px !important;
     position: relative;
@@ -372,6 +389,10 @@ img.img-responsive {
 
 /* --- SMALL ------------------------------------------------------------------*/
 @media (min-width:768px) and (max-width:992px) {
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 80px;
+  }
+
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 16px !important;
     position: relative;
@@ -381,10 +402,11 @@ img.img-responsive {
 
 /* --- MEDIUM ------------------------------------------------------------------*/
 @media (min-width:992px) and (max-width:1200px) {
-
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 105px;
+  }
 }
 
 /* --- LARGE --------------------------------------------------------------------*/
 @media (min-width:1200px) {
-
 }
