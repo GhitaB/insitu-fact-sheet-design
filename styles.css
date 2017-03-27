@@ -435,6 +435,10 @@ img.img-responsive {
 
 /* === RESPONSIVITY ===========================================================*/
 
+/* --- OH ---------------------------------------------------------------------*/
+@media (max-width:590px) {
+}
+
 /* --- EXTRA SMALL ------------------------------------------------------------*/
 @media (max-width:768px) {
   #insitu-main-content {
@@ -452,11 +456,16 @@ img.img-responsive {
     right: -80px;
   }
 
+  #insitu-header .insitu-layer-5.insitu-bg-default {
+    top: -190px;
+  }
+
   #insitu-header .insitu-layer-5.insitu-bg-default img {
     height: 50px;
     margin-right: 20px;
     position: relative;
     top: 10px;
+    padding-bottom: 10px;
   }
 
   .insitu-footer-container .insitu-footer-content .insitu-images img {
