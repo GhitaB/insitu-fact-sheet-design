@@ -44,6 +44,10 @@ ol li, ul li {
   margin-bottom: 10px;
 }
 
+blockquote p {
+  font-weight: bold;
+}
+
 .insitu-bg-primary {
   background: #783F34;
 }
