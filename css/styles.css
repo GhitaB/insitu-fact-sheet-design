@@ -436,33 +436,45 @@ img.img-responsive {
 
 /* === RESPONSIVITY ===========================================================*/
 
-/* --- OH, NO -----------------------------------------------------------------*/
-@media (max-width:490px) {
+/* --- ZZZ --------------------------------------------------------------------*/
+@media (max-width:350px) {
+  .insitu-layer-7.insitu-bg-default {
+    margin-left: 10px !important;
+  }
+
   #insitu-header .insitu-layer-6.insitu-bg-default h3 {
     font-size: 9px !important;
     position: relative;
-    top: -22px !important;
-    right: -134px !important;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 80px !important;
   }
 
   #insitu-header .insitu-layer-5.insitu-bg-default {
-    top: -240px !important;
+    width: 90% !important;
+    left: 35px !important;
   }
-}
 
-/* --- OH ---------------------------------------------------------------------*/
-@media (max-width:590px) {
-  #insitu-header .insitu-layer-3.insitu-bg-default:after {
-    transform-origin: left bottom;
-    transform: skew(135deg);
-    position: absolute;
-    background: #FFFFFF;
-    right: 3px;
-    left: -70px;
-    content: '';
-    bottom: 0;
-    top: 0;
+  #insitu-header .insitu-layer-5.insitu-bg-default img {
+    height: 50px !important;
+    margin-right: 5px !important;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
   }
+
+  #insitu-header .insitu-layer-3.insitu-bg-default:after {
+      transform-origin: left bottom;
+      transform: skew(135deg);
+      position: absolute;
+      background: #FFFFFF;
+      right: 3px;
+      left: -90px;
+      content: '';
+      bottom: 0;
+      top: 0;
+    }
 
   #insitu-header .insitu-layer-3.insitu-bg-default:before {
     transform-origin: left bottom;
@@ -470,7 +482,7 @@ img.img-responsive {
     position: absolute;
     background: #ffcf87;
     right: 0;
-    left: -70px;
+    left: -90px;
     content: '';
     bottom: -4px;
     top: 0;
@@ -487,7 +499,7 @@ img.img-responsive {
     transform: skew(135deg);
     position: absolute;
     background: #ffcf87;
-    right: 203px;
+    right: 223px;
     left: -500px;
     content: '';
     bottom: -20px;
@@ -499,7 +511,7 @@ img.img-responsive {
     transform: skew(135deg);
     position: absolute;
     background: #FFFFFF;
-    right: 210px;
+    right: 230px;
     left: -500px;
     content: '';
     bottom: -20px;
@@ -541,6 +553,251 @@ img.img-responsive {
 
   #insitu-header .insitu-layer-5.insitu-bg-default {
     top: -190px;
+    left: 60px;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default img {
+    height: 50px;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .insitu-footer-container .insitu-footer-content .insitu-images img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+/* --- OH, NO -----------------------------------------------------------------*/
+@media (min-width:350px) and (max-width:490px) {
+  .insitu-layer-7.insitu-bg-default {
+    margin-left: 10px !important;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default h3 {
+    font-size: 9px !important;
+    position: relative;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 125px !important;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default {
+    width: 90% !important;
+    left: 35px !important;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default img {
+    height: 50px !important;
+    margin-right: 5px !important;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #insitu-header .insitu-layer-3.insitu-bg-default:after {
+      transform-origin: left bottom;
+      transform: skew(135deg);
+      position: absolute;
+      background: #FFFFFF;
+      right: 3px;
+      left: -90px;
+      content: '';
+      bottom: 0;
+      top: 0;
+    }
+
+  #insitu-header .insitu-layer-3.insitu-bg-default:before {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #ffcf87;
+    right: 0;
+    left: -90px;
+    content: '';
+    bottom: -4px;
+    top: 0;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default {
+    height: 120px;
+    width: 0%;
+    top: 120px;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default:before {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #ffcf87;
+    right: 223px;
+    left: -500px;
+    content: '';
+    bottom: -20px;
+    top: -5px;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default:after {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #FFFFFF;
+    right: 230px;
+    left: -500px;
+    content: '';
+    bottom: -20px;
+    top: -45px;
+  }
+
+  .insitu-layer-7.insitu-bg-default {
+    margin-left: 85px;
+  }
+
+  .insitu-layer-7.insitu-bg-default img {
+    display: inline-block;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .insitu-layer-7.insitu-bg-default h2 {
+    font-size: 18px;
+  }
+
+  .insitu-layer-7.insitu-bg-default h3 {
+    font-size: 16px;
+  }
+
+  #insitu-main-content {
+    top: -150px;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 140px;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default h3 {
+    font-size: 10px;
+    position: relative;
+    top: 25px;
+    right: -120px;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default {
+    top: -190px;
+    left: 60px;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default img {
+    height: 50px;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .insitu-footer-container .insitu-footer-content .insitu-images img {
+    margin-right: 2%;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+/* --- OH ---------------------------------------------------------------------*/
+@media (min-width:490px) and (max-width:590px) {
+  #insitu-header .insitu-layer-3.insitu-bg-default:after {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #FFFFFF;
+    right: 3px;
+    left: -90px;
+    content: '';
+    bottom: 0;
+    top: 0;
+  }
+
+  #insitu-header .insitu-layer-3.insitu-bg-default:before {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #ffcf87;
+    right: 0;
+    left: -90px;
+    content: '';
+    bottom: -4px;
+    top: 0;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default {
+    height: 120px;
+    width: 0%;
+    top: 120px;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default:before {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #ffcf87;
+    right: 223px;
+    left: -500px;
+    content: '';
+    bottom: -20px;
+    top: -5px;
+  }
+
+  #insitu-header .insitu-layer-4.insitu-bg-default:after {
+    transform-origin: left bottom;
+    transform: skew(135deg);
+    position: absolute;
+    background: #FFFFFF;
+    right: 230px;
+    left: -500px;
+    content: '';
+    bottom: -20px;
+    top: -45px;
+  }
+
+  .insitu-layer-7.insitu-bg-default {
+    margin-left: 85px;
+  }
+
+  .insitu-layer-7.insitu-bg-default img {
+    display: inline-block;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .insitu-layer-7.insitu-bg-default h2 {
+    font-size: 18px;
+  }
+
+  .insitu-layer-7.insitu-bg-default h3 {
+    font-size: 16px;
+  }
+
+  #insitu-main-content {
+    top: -150px;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default {
+    right: 140px;
+  }
+
+  #insitu-header .insitu-layer-6.insitu-bg-default h3 {
+    font-size: 10px;
+    position: relative;
+    top: 25px;
+    right: -120px;
+  }
+
+  #insitu-header .insitu-layer-5.insitu-bg-default {
+    top: -190px;
+    left: 60px;
   }
 
   #insitu-header .insitu-layer-5.insitu-bg-default img {
