@@ -30,6 +30,16 @@ body {
   color: #333333;
 }
 
+a {
+  color: #783F34;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60332a;
+  text-decoration: none;
+}
+
 ol li, ul li {
   margin-bottom: 10px;
 }
