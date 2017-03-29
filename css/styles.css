@@ -316,6 +316,7 @@ blockquote p {
   margin-left: 40px;
   position: relative;
   bottom: -100px;
+  margin-top: -160px;
 }
 
 .insitu-footer-container .insitu-footer-content .insitu-images {
