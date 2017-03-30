@@ -327,18 +327,8 @@ blockquote p {
   margin-right: 10%;
 }
 
-.insitu-footer-container .insitu-code-img {
-  position: relative;
-  float: right;
-  top: 20px;
-  right: 20px;
-  max-height: 120px;
-  margin-left: 10px;
-}
-
 .insitu-footer-container .insitu-text .small {
   color: #666666;
-  width: 75%;
 }
 
 /* === MAIN CONTENT ===========================================================*/
