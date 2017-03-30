@@ -707,6 +707,20 @@ img.img-responsive {
   }
 }
 
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th,
+.table.table-bordered {
+  border: 1px solid #783F34;
+}
+
+.table.table-bordered.insitu-table {
+  margin-bottom: 0px;
+}
+
 /* --- OH ---------------------------------------------------------------------*/
 @media (min-width:490px) and (max-width:590px) {
   #insitu-header .insitu-layer-3.insitu-bg-default:after {
