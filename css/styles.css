@@ -711,6 +711,10 @@ img.img-responsive {
   margin-bottom: 0px;
 }
 
+.table.insitu-table th {
+  text-align: center !important;
+}
+
 /* --- OH ---------------------------------------------------------------------*/
 @media (min-width:490px) and (max-width:590px) {
   #insitu-header .insitu-layer-3.insitu-bg-default:after {
